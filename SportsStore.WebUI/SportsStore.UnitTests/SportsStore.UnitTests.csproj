@@ -52,9 +52,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SportsStore\SportsStore.csproj">
+    <ProjectReference Include="..\SportsStore\SportsStore.WebUI.csproj">
       <Project>{7927FD7C-D22E-4515-A1FA-E952EDFAB43B}</Project>
-      <Name>SportsStore</Name>
+      <Name>SportsStore.WebUI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
